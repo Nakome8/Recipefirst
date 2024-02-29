@@ -1,0 +1,102 @@
+@media only screen and (min-width: 500px){
+html {
+    background-color:hsl(30, 54%, 90%);  
+}
+}
+
+@media only screen and (min-width: 1439px){
+body {
+    display: flex;
+    margin-top: 3em;
+    padding-bottom: 3em;
+  
+}
+}
+
+
+body {
+    
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+}
+
+
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredients, #instructions{ 
+    border-bottom: 1px solid hsl(30, 6%, 87%);
+    margin-bottom: 1em;
+}
+
+#preptitle{
+    background-color:  hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+li{
+    padding: 0.5em;
+}
+
+#preptitle > p{
+    color:  hsl(332, 51%, 32%);
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+img {
+   border-radius: 25px;
+   width: 100%;
+   height:100%;
+
+}
+
+#tronc{
+  
+    margin-left: auto;
+    margin-right: auto;
+    background:hsl(0, 0%, 100%);  
+    font-weight: 400;
+    font-style: normal;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+em{
+    font-style: normal;
+    font-weight: 600;    
+}
+
+td:last-child{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse
+}
+tr{
+    border-bottom: 1px solid hsl(30, 6%, 87%);
+}
+td{
+    padding: 1em;
+}
+#pleaz{
+    border-width: 0;
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+
+}
